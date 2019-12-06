@@ -22,16 +22,16 @@ h2 {
 }
 
 p {
-    /* padding: 0px 0px 15px 0px; */
+    padding: 0px 0px 15px 0px;
 
 }
+
 
 header {
     width: 960px;
     margin: 0 auto;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     background: #ffffff;
-    border-bottom: 2px solid #cccccc;
     padding: 0 0 63px 0;
 
 }
@@ -54,14 +54,14 @@ img.headshot-resize {
 
 footer {
     margin: 0 auto;
+    position: fixed;
     bottom: 0%;
     padding: 0px 0px 5px 0px;
-    /* position: fixed; */
     background: #666666;
     color:#ffffff;
     text-align: center;
     border-top: 8px solid #4aaaa5;
-    width: 960px;
+    width: 100%
     
 
 }
@@ -71,6 +71,13 @@ button {
     margin: 0px 0px 10px 10px;
     background-color: #4aaaa5;
     border: none;
+
+}
+
+.header-background {
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid #cccccc;
 
 }
 
@@ -143,6 +150,9 @@ img.portfolio-image {
 
 }
 
+p.footer {
+    padding: 0 0 0 0;
+}
 
 /* .foot-fixed {
     position: fixed;
