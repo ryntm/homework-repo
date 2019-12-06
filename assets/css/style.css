@@ -108,6 +108,42 @@ button {
 
 }
 
+/* .portfolio-float {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 10px;
+
+} */
+
+.portfolio-container {
+    position: relative;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+img.portfolio-image {
+    width: 200px;
+    height: 200px;
+
+}
+
+.portfolio-text {
+    position: absolute;
+    top: 125px;
+    background: #4aaaa5;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+
+}
+
+
 /* .foot-fixed {
     position: fixed;
     width: 960px;
